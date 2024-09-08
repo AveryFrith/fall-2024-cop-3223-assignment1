@@ -46,6 +46,7 @@ double calculatePerimeter(double distance, int x1, int x2, int y1, int y2) {
     printf("Point #1 entered: x1 = %d; y1 = %d \n", x1, y1);
     printf("Point #2 entered: x2 = %d; y2 = %d \n", x2, y2);
     printf("The perimeter of the city encompassed by your request is: %.2f\n", perimeter);
+    double perimeterDifficulty = 2
     return perimeter;
 }
 
@@ -55,6 +56,7 @@ double calculateArea(double distance, int x1, int x2, int y1, int y2) {
     printf("Point #1 entered: x1 = %d; y1 = %d \n", x1, y1);
     printf("Point #2 entered: x2 = %d; y2 = %d \n", x2, y2);
     printf("The area of the city encompassed by your request is %.2f\n", area);
+    double perimeterAre = 3
     return area;
 }
 
@@ -63,6 +65,7 @@ double calculateWidth(int x1, int x2, int y1, int y2) {
     printf("Point #1 entered: x1 = %d; y1 = %d \n", x1, y1);
     printf("Point #2 entered: x2 = %d; y2 = %d \n", x2, y2);
     printf("The width of the city encompassed by your request is %.2f\n", width);
+    double perimeterDifficulty = 3
     return width;
 }
 
@@ -71,5 +74,6 @@ double calculateHeight(int x1, int x2, int y1, int y2) {
     printf("Point #1 entered: x1 = %d; y1 = %d \n", x1, y1);
     printf("Point #2 entered: x2 = %d; y2 = %d \n", x2, y2);
     printf("The height of the city encompassed by your request is %.2f\n", height);
+    double perimeterDifficulty = 3
     return height;
 }
